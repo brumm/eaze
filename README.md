@@ -4,11 +4,11 @@ Use it to ease values for n steps up to the value you define.
 Note that we skip 0.
 
 ```js
-import eaze, { linear } from 'eaze'
+import eaze, { easings } from 'eaze'
 
 const values = eaze(2, {
   value: 1,
-  easing: linear,
+  easing: easings.linear,
 })
 
 // => [

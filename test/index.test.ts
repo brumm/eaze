@@ -1,11 +1,11 @@
-import eaze, { linear } from '../src'
+import eaze, { easings } from '../src'
 // easeIn, easeOut, easeInOut
 
 describe('eaze', () => {
   test('linear', () => {
     const values = eaze(2, {
       value: 1,
-      easing: linear,
+      easing: easings.linear,
     })
 
     expect(values.length).toBe(2)
