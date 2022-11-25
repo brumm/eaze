@@ -20,7 +20,9 @@ const values = eaze(2, {
 Or use it to generate fancy, multi-layered box-shadows
 
 ```js
-const eased = easedValues(
+import eaze, { easings } from 'eaze'
+
+const eased = eaze(
   6,
   {
     // alpha
